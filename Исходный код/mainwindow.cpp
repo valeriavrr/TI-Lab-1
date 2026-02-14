@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
     key3LineEdit = new QLineEdit(this);
     key4LineEdit = new QLineEdit(this);
 
-    playfairButton = new QRadioButton("Шифр Плейфейра", this);
+    playfairButton = new QRadioButton("Шифр Плейфейра (4 таблицы)", this);
     vigenerButton = new QRadioButton("Шифр Виженера (прямой ключ)", this);
 
     encryptionButton = new QRadioButton("Шифрование", this);
