@@ -1,0 +1,12 @@
+# CLion
+.idea/
+*.iml
+
+# Build
+cmake-build-*/
+build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
