@@ -12,7 +12,13 @@ set(CMAKE_AUTORCC ON)
 
 add_executable(ti_lab_1 main.cpp
         mainwindow.cpp
-        mainwindow.h)
+        mainwindow.h
+        alphabet.cpp
+        alphabet.h
+        playfair.cpp
+        playfair.h
+        vigener.cpp
+        vigener.h)
 
 target_link_libraries(ti_lab_1
         Qt6::Core
